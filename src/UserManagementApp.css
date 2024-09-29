@@ -1,0 +1,109 @@
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 16px;
+    font-family:sans-serif;
+
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .btn-create{
+    background-color:skyblue;
+    border:transparent;
+    padding:10px;
+    border-radius:10px;
+    cursor:pointer;
+  }
+  .btn-create:hover{
+    transform:scale(0.9);
+  }
+  .btn-edit{
+    background : orange;
+    color:white;
+    border:transparent;
+    border-radius:8px;
+    cursor:pointer;
+  }
+  .editIcon{
+    padding:5px;
+  }
+  .deleteIcon{
+    padding:5px;
+  }
+  .btn-delete{
+    margin-left:3px;
+    background : crimson;
+    color:white;
+    border:transparent;
+    border-radius:8px;
+    cursor:pointer;
+  }
+  .error-alert {
+    background-color: #fee2e2;
+    border: 1px solid #fca5a1;
+    color: #b91c1c;
+    padding: 16px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  
+  .form {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .form-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+ }
+  
+  .form-group {
+    margin-bottom: 16px;
+  }
+  
+  .form-label {
+    display: block;
+    color: #4a5568;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .form-input {
+    width: 70%;
+    padding: 8px 12px;
+    border: 2px solid skyblue;
+    border-radius: 4px;
+    box-shadow: none;
+    transition: border-color 0.2s ease;
+  }
+  
+  .form-input:focus {
+    border-color: #63b
+  }
+
+.btn-update{
+    padding:10px;
+    background:orange;
+    border:transparent;
+    border-radius:8px;
+    color:white;
+    font-weight:600;
+}
+.btn-cancel{
+    padding:10px;
+    background:crimson;
+    margin-top:10px;
+    border:transparent;
+    border-radius:8px;
+    color:white;
+    font-weight:600;
+}
